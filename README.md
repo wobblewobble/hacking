@@ -1,5 +1,5 @@
-# hacking
-hacking code and scripts
+# hack
+Hacking code and scripts
 
 Edited version of mimikatz powershell script to collect passwords.
 run the same as mimikatz, just renamed functions:
