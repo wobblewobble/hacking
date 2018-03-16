@@ -1,0 +1,4 @@
+& (Get-Command *ite-h*) "Invoke Help" -Foreground Gre
+.(Get-Command *ite-ho*) "Invoke Help" -Foreground Gre
+.(GCM *ite-ho*) ("Inv" + "ok" + "e H"+"elp") -Foreground Gre
+.(GCM *ite-ho*) ("Inv" + "ok" + "e H"+"elp") -Foreground Gre
