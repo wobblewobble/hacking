@@ -2,4 +2,4 @@
 # .(Get-Command *ite-ho*) "Invoke Help" -Foreground Gre
 # .(GCM *ite-ho*) ("Inv" + "ok" + "e H"+"elp") -Foreground Gre
 # .(GCM *ite-ho*) ("Inv" + "ok" + "e H"+"elp") -Foreground Gre
-Write-Host "Invoke Help" -Foreground Green
+Write-Host "'Invoke Help'" -Foreground Green
