@@ -2,6 +2,7 @@
 ## Theory
 
 To find open ports that could be of use to an attacker during an attack. 
+
 Different OS have different vulnerabilities depending available ports.
 ## Practice
 
