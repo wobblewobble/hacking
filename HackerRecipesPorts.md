@@ -34,7 +34,7 @@ $report
 ```
 Reference from Chris Duck @gpduck 
 
-## NMAP Scans
+### NMAP Scans
 Scan using TCP port is very reliable, the -P0 will stop Nmap using ping and give us away.
 ```
 nmap -sT -P0 192.168.1.115
