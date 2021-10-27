@@ -93,10 +93,16 @@ wmic service get name,displayname,pathname,startmode |findstr /i "auto" |findstr
 Microsoft have a script to repair issues.
 Microsoft script to fix vulnerable services
 To be found, it's moved.
+One version
+https://github.com/VectorBCO/windows-path-enumerate
 
 ALWAYS quote paths for services
+
 AVOID installing services in folders that users have full access to
+
 DO NOT weaken the default security that Windows has put in place.
+
+https://www.blackhillsinfosec.com/digging-deeper-vulnerable-windows-services/
 
 ## Resources
 
@@ -105,6 +111,8 @@ https://adsecurity.org/?p=4367
 In May 2020, I presented some Active Directory security topics in a Trimarc Webcast called “Securing Active Directory: 
 Resolving Common Issues” and included some information I put together relating to the security of AD Group Managed Service Accounts (GMSA). 
 This post includes the expanded version of attacking and defending GMSAs I covered in the webcast.I …
+
+https://astrix.co.uk/news/2018/10/22/secure-your-windows-services
 
 End
 
