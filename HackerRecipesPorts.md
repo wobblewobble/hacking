@@ -83,7 +83,21 @@ Hide a service
 Start and stop a service
 Exploit a service
 Hack a machine, have a service generate an account
- 
+
+
+Services need to have the path enclosed in quotes, otherwise Windows will try all paths to the exe.
+To find services not protecting with quotes, use the following query.
+```
+wmic service get name,displayname,pathname,startmode |findstr /i "auto" |findstr /i /v "c:\windows\\" |findstr /i /v """
+```
+Microsoft have a script to repair issues.
+Microsoft script to fix vulnerable services
+To be found, it's moved.
+
+ALWAYS quote paths for services
+AVOID installing services in folders that users have full access to
+DO NOT weaken the default security that Windows has put in place.
+
 ## Resources
 
 Attacking Active Directory Group Managed Service Accounts (GMSAs)
